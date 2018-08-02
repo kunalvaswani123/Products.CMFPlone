@@ -133,6 +133,40 @@ Bug fixes:
 
 - Fix failing thememapper robot test after rebuild of thememapper bundle in p.a.theming PR 148
   [sunew]
+- *add item here*
+
+New Features:
+
+- New robot tests for querystring in Collection type.
+  Now almost all querystring types are robot tested.
+  [llisa123]
+
+Bug fixes:
+
+- Fix an undefined variable in a test helper function
+  [ale-rt]
+
+- Fix registration of ``robots.txt`` browser view to avoid ``AttributeError`` on Zope's root (fixes `#2052 <https://github.com/plone/Products.CMFPlone/issues/2052>`_).
+  [hvelarde]
+
+- Get rid of obsolete ``X-UA-Compatible`` header.
+  [hvelarde]
+- Fixed Location query robot tests timing problems.
+  [llisa123]
+
+- Add test for issue #2469.
+  [jensens]
+
+- Fixed tests when IRichText behavior is used.
+  IRichText -> IRichTextBehavior
+  This is a follow up to `issue 476 <https://github.com/plone/plone.app.contenttypes/issues/476>`_.
+  [iham]
+
+
+5.1.3 (2018-06-22)
+------------------
+
+Breaking changes:
 
 - Remove five.pt for Zope 4
   [jensens]
